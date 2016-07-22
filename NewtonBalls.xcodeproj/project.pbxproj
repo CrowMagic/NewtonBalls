@@ -14,6 +14,7 @@
 		945F8AEB1D420D51004F86B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945F8AE91D420D51004F86B9 /* LaunchScreen.storyboard */; };
 		945F8AF61D420D51004F86B9 /* NewtonBallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F8AF51D420D51004F86B9 /* NewtonBallsTests.swift */; };
 		945F8B011D420D51004F86B9 /* NewtonBallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F8B001D420D51004F86B9 /* NewtonBallsUITests.swift */; };
+		945F8B0F1D420E52004F86B9 /* NewtonsCradle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F8B0E1D420E52004F86B9 /* NewtonsCradle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		945F8AFC1D420D51004F86B9 /* NewtonBallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewtonBallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		945F8B001D420D51004F86B9 /* NewtonBallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonBallsUITests.swift; sourceTree = "<group>"; };
 		945F8B021D420D51004F86B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945F8B0E1D420E52004F86B9 /* NewtonsCradle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewtonsCradle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				945F8AE01D420D51004F86B9 /* AppDelegate.swift */,
 				945F8AE21D420D51004F86B9 /* ViewController.swift */,
+				945F8B0E1D420E52004F86B9 /* NewtonsCradle.swift */,
 				945F8AE41D420D51004F86B9 /* Main.storyboard */,
 				945F8AE71D420D51004F86B9 /* Assets.xcassets */,
 				945F8AE91D420D51004F86B9 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				945F8AE31D420D51004F86B9 /* ViewController.swift in Sources */,
+				945F8B0F1D420E52004F86B9 /* NewtonsCradle.swift in Sources */,
 				945F8AE11D420D51004F86B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +489,7 @@
 				945F8B071D420D51004F86B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		945F8B081D420D51004F86B9 /* Build configuration list for PBXNativeTarget "NewtonBallsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				945F8B0A1D420D51004F86B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		945F8B0B1D420D51004F86B9 /* Build configuration list for PBXNativeTarget "NewtonBallsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				945F8B0D1D420D51004F86B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
